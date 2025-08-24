@@ -378,14 +378,8 @@ font-size: x-large;
 }
 
 /* Estilos base */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
 
 header {
-  background: #191519;
-  color: #dcc9a9;
   padding: 1rem;
   text-align: center;
 }
@@ -414,7 +408,6 @@ main {
 
 footer {
   text-align: center;
-
   padding: 1rem;
   margin-top: 1rem;
 }
