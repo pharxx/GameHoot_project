@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    background-color: #191519;
+}
+.active_tit a{
+    color: #4e6851;
+    text-decoration: solid;
+}
+.Cont_Header{
+    width: 100%;
+    height: 120px;
+    background-color: #191519;
+    display: flex;
+    border-bottom: #b83a2d;
+    border-style: solid;
+}
+.Cont_Header h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Left_Side{
+    background-color: #b83a2d;
+    color: #191519;
+    width: 50%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.Logotipo{
+    height: 115px;
+    width: 70px;
+}
+.RightSide{
+    color:#b83a2d;
+    display:  flex;
+    align-items: center;
+}
+.menuBar{
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    padding: 10px;
+    align-items: center;
+    color: #b83a2d;
+}
+.active{
+    color: #4e6851;
+}
+.menuBar a{
+    color: #b83a2d;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/*PArte de las cards de juegos*/
+.Featured{
+    margin: 40px 40px 0 40px;
+}
+.Featured h2{
+    color: #dcc9a9;
+    font-size: 22px; 
+    margin-bottom: 10px;
+    border-bottom: 3px solid #dcc9a9; 
+    padding-bottom: 8px;
+}
+.GameCards{
+    background: transparent; 
+    border: 2px solid #b83a2d;
+     border-radius: 12px;
+     height: auto;
+    width: 500px;
+      text-align: center;
+       padding: 10px; 
+       box-sizing: border-box;
+}
+.GameCards p{
+    color: #fff; 
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+.GameAssets{
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.juegos-seccion{
+    margin: 40px 40px 0 40px;
+}
+.juegos-seccion h2{
+    color: #dcc9a9; 
+    font-size: 22px; 
+    border-bottom: 3px solid #dcc9a9;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+}
+
+/* Elimina el borde del contenedor de juegos */
+.juegos-contenedor {
+    background:transparent;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    border: none !important;
+}
+.juegos-contenedor a{
+    color: #fff; 
+    font-size: 15px; 
+    font-weight: 700;
+    margin: 8px 0 0 0;
+    text-decoration: none;
+}
+.juegos-seccion a{
+    color: #fff; 
+    font-size: 15px; 
+    margin: 8px 0 0 0;
+    text-decoration: none;
+}
+/* Elimina el borde de las imágenes, mantiene el border-radius */
+.juego-img {
+    border: none !important;
+    border-radius: 8px !important;
+    transition: box-shadow 0.3s;
+    box-shadow: none;
+}
+
+/* Efecto hover con sombra roja */
+.juego-img:hover {
+    box-shadow: 0 0 20px 0 #d31803;
+}
+
+/* Centrar y espaciar las tarjetas de "Los más descargados" */
+.cards-descargados {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+}
+.seccion1{
+    display: flex;
+    width: 120px;
+    text-align: center;
+}
+
+
+
+    /*Parte de la barra de busqueda*/
+    .barrabuscar{
+        background-color: #191519 !important;
+        color: #191519;   
+    }
+    .busqueda{
+        background-color: #191519;
+
+    }
+    .bar_buscar{
+        width: 850px;
+        background-color: #191519 !important;
+        border-color: #b83a2d;
+    }
+    .bar_buscar:focus{
+        border-color: #b83a2d !important;
+        box-shadow: 0 0 5px #b83a2d  !important;
+        color: #dcc9a9 !important;
+    }
+
+    .bar_buscar ::placeholder{
+        color: #dcc9a9 !important;
+        opacity: 100 !important;
+    }
+
+    /*About us Gissell*/
+.Quienes_somos{
+  border-bottom: #b83a2d 2px solid;
+    display: flex;
+    margin-bottom: 0;
+    gap: 10%;
+  }
+.tituloquienes{
+  width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+      margin: 5%;
+      color: #b83a2d;
+      font-size:x-large;
+     
+}
+.textoquienes {
+    color: #dcc9a9;
+   max-width: 780px;        
+    text-align: left;         
+    font-size: large;
+   font-weight: 600; 
+   line-height: 2;
+  
+}
+  .textoContacto {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5%;
+    color: #b83a2d;
+  }
+.textoContacto a{
+color: #b83a2d;
+font-size: x-large;
+}
+  .tituloContacto{
+    margin: 5%;
+    color: #b83a2d;
+  }
+  .icono-email {
+    color: #b83a2d;
+}
+.aboutgh{
+  width: 50%;
+  margin-top: 5%;
+  background-color: #b83a2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tituloVM{
+    margin: 5%;
+    color: #dcc9a9;
+    border-bottom: 2px solid #dcc9a9; 
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.texto{
+    color: #dcc9a9;
+     max-width: 800px;        
+  margin: 4px auto;       
+  padding: 2px;
+  text-align: left;        
+  color: #dcc9a9;   
+  font-size: large;
+}
+    .footer {
+      border-top: 2px solid #4e6851;
+  text-align: center;
+  color: #4e6851;
+  font-size: 0.8em;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+
+/*Compatibilidad con pantallas*/
+/*  Ajustes responsivos */
+@media (max-width: 1024px) {
+  .Cont_Header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .Left_Side {
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .RightSide {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .menuBar {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .GameCards {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .juegos-contenedor {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .cards-descargados {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Quienes_somos {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .tituloquienes, 
+  .aboutgh {
+    width: 100%;
+  }
+
+  .bar_buscar {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Cont_Header h1 {
+    font-size: 28px;
+  }
+
+  .menuBar a {
+    font-size: 16px;
+  }
+
+  .GameCards {
+    max-width: 300px;
+  }
+
+  .GameAssets {
+    width: 100%;
+    height: auto;
+  }
+
+  .textoquienes, 
+  .texto {
+    font-size: medium;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+
+  .bar_buscar {
+    max-width: 100%;
+  }
+
+  .cards-descargados {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Cont_Header h1 {
+    font-size: 22px;
+  }
+
+  .menuBar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .GameCards {
+    max-width: 90%;
+  }
+
+  .textoquienes,
+  .texto {
+    font-size: small;
+  }
+}
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos base */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #191519;
+  color: #dcc9a9;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap; /* hace que los enlaces bajen si no caben */
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #dcc9a9;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+
+  padding: 1rem;
+  margin-top: 1rem;
+}
