@@ -210,7 +210,7 @@ body{
     align-items: center;
     gap: 10px;
     margin: 5%;
-    color: #b83a2d;
+    color: #e74c3c;
   }
 .textoContacto a{
 color: #b83a2d;
@@ -218,10 +218,10 @@ font-size: x-large;
 }
   .tituloContacto{
     margin: 5%;
-    color: #b83a2d;
+    color: #e74c3c;
   }
   .icono-email {
-    color: #b83a2d;
+    color: #e74c3c;
 }
 .aboutgh{
   width: 50%;
@@ -256,158 +256,4 @@ font-size: x-large;
   font-size: 0.8em;
   margin-top: 50px;
   padding: 20px 0;
-}
-
-/*Compatibilidad con pantallas*/
-/*  Ajustes responsivos */
-@media (max-width: 1024px) {
-  .Cont_Header {
-    flex-direction: column;
-    height: auto;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .Left_Side {
-    width: 100%;
-    justify-content: center;
-    padding: 10px;
-  }
-
-  .RightSide {
-    margin-top: 10px;
-    justify-content: center;
-  }
-
-  .menuBar {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .GameCards {
-    width: 100%;
-    max-width: 400px;
-    margin: auto;
-  }
-
-  .juegos-contenedor {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .cards-descargados {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .Quienes_somos {
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
-  }
-
-  .tituloquienes, 
-  .aboutgh {
-    width: 100%;
-  }
-
-  .bar_buscar {
-    width: 100%;
-    max-width: 600px;
-  }
-}
-
-@media (max-width: 768px) {
-  .Cont_Header h1 {
-    font-size: 28px;
-  }
-
-  .menuBar a {
-    font-size: 16px;
-  }
-
-  .GameCards {
-    max-width: 300px;
-  }
-
-  .GameAssets {
-    width: 100%;
-    height: auto;
-  }
-
-  .textoquienes, 
-  .texto {
-    font-size: medium;
-    line-height: 1.6;
-    padding: 0 10px;
-  }
-
-  .bar_buscar {
-    max-width: 100%;
-  }
-
-  .cards-descargados {
-    gap: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .Cont_Header h1 {
-    font-size: 22px;
-  }
-
-  .menuBar {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .GameCards {
-    max-width: 90%;
-  }
-
-  .textoquienes,
-  .texto {
-    font-size: small;
-  }
-}
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Estilos base */
-
-header {
-  padding: 1rem;
-  text-align: center;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap; /* hace que los enlaces bajen si no caben */
-  margin-top: 0.5rem;
-}
-
-nav a {
-  color: #dcc9a9;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-
-main {
-  max-width: 1200px;
-  margin: auto;
-  padding: 1rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  margin-top: 1rem;
 }
