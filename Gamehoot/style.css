@@ -165,15 +165,18 @@ body{
 
     /*Parte de la barra de busqueda*/
     .barrabuscar{
+        align-items: start !important;
+        justify-content: center !important;
         background-color: #191519 !important;
         color: #191519;   
+        height: 90vw;
     }
     .busqueda{
         background-color: #191519;
 
     }
     .bar_buscar{
-        width: 850px;
+        width: 80vw;
         background-color: #191519 !important;
         border-color: #b83a2d;
     }
@@ -258,11 +261,67 @@ font-size: x-large;
   color: #dcc9a9;   
   font-size: large;
 }
-    .footer {
-      border-top: 2px solid #4e6851;
+    footer {
+        border-top: 2px solid #4e6851;
+      text-align: center;
+      color: #4e6851;
+      font-size: 0.8em;
+      margin-top: 50px;
+      padding: 20px 0;
+}
+/* --- Clases generadas desde los estilos inline --- */
+
+/* Sección destacada (cards grandes) */
+.flex-gap-80 {
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+/* Contenedor de estrellas */
+.margen-estrella {
+  margin: 6px 0;
+}
+
+/* Estrella activa */
+.star-full {
+  color: #ff7f50;
+  font-size: 20px;
+}
+
+/* Estrella apagada */
+.star-empty {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Descripción pequeña en cards grandes */
+.desc-juego {
+  color: #ffe3c8;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Card pequeña de sección */
+.card-small {
+  width: 120px;
   text-align: center;
-  color: #4e6851;
-  font-size: 0.8em;
-  margin-top: 50px;
-  padding: 20px 0;
+}
+
+/* Imagen cuadrada */
+.img-square {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Animaciones*/
+.GameCards, .card-small {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.GameCards:hover, .card-small:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  cursor: pointer;
 }
